@@ -2773,6 +2773,84 @@ Formato recomendado: MP4 vertical (9:16 ou 4:5).
 }
 </style>
 
+
+<style id="kp-header-logo-ajuste-final">
+/* ============================================================
+   AJUSTE FINAL — LOGO DO CABEÇALHO
+   Mantém a logo inteira acima da linha inferior da navegação.
+   ============================================================ */
+.glass-nav{
+    overflow: visible !important;
+}
+
+.glass-nav > div:first-child{
+    position: relative !important;
+    min-height: 80px !important;
+}
+
+.kp-logo-header-slot{
+    width: 176px !important;
+    height: 72px !important;
+    flex: 0 0 176px !important;
+    margin: 0 !important;
+    padding: 2px 0 7px !important;
+    align-self: center !important;
+    overflow: visible !important;
+    transform: translateY(-3px) !important;
+}
+
+.kp-logo-header-slot::before{
+    inset: 10% 7% 16% !important;
+}
+
+.kp-logo-header-slot::after{
+    /* remove a segunda linha decorativa sob a logo */
+    display: none !important;
+}
+
+.kp-logo-header-slot img{
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 66px !important;
+    object-fit: contain !important;
+    object-position: center center !important;
+    transform: none !important;
+    filter: drop-shadow(0 8px 18px rgba(0,0,0,.22)) !important;
+}
+
+.kp-logo-header-slot:hover img{
+    transform: scale(1.025) !important;
+}
+
+@media (max-width: 1023px){
+    .kp-logo-header-slot{
+        width: 154px !important;
+        height: 68px !important;
+        flex-basis: 154px !important;
+        transform: translateY(-2px) !important;
+    }
+
+    .kp-logo-header-slot img{
+        max-height: 62px !important;
+    }
+}
+
+@media (max-width: 767px){
+    .kp-logo-header-slot{
+        width: 132px !important;
+        height: 62px !important;
+        flex-basis: 132px !important;
+        padding-bottom: 5px !important;
+        transform: translateY(-1px) !important;
+    }
+
+    .kp-logo-header-slot img{
+        max-height: 57px !important;
+    }
+}
+</style>
+
 </head>
 <body class="antialiased selection:bg-brand-gold selection:text-white">
 
