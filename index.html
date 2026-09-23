@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dra. Kemilly Prates | Nutrologia & Saúde da Mulher 35+</title>
+    <link rel="icon" type="image/png" href="kp logo completa (2).png">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -2732,6 +2733,46 @@ Formato recomendado: MP4 vertical (9:16 ou 4:5).
   #instagram-real .kp-reels-track{gap:11px!important;padding-left:12px!important}
 }
 </style>
+
+<style id="kp-logo-places-premium">
+/* ============================================================
+   ESPAÇOS PREMIUM PARA A LOGO — DRA. KEMILLY PRATES
+   Para preencher todos os espaços, coloque:
+   logo-kemilly-prates.png
+   na mesma pasta do index.html.
+   ============================================================ */
+.kp-logo-slot{position:relative;display:flex;align-items:center;justify-content:center;isolation:isolate}
+.kp-logo-slot::before{content:"";position:absolute;inset:12%;border-radius:50%;background:radial-gradient(circle,rgba(201,149,118,.17),rgba(201,149,118,.035) 42%,transparent 70%);filter:blur(16px);z-index:-1}
+.kp-logo-slot img{display:block;width:100%;height:100%;object-fit:contain;transform:none!important;filter:drop-shadow(0 14px 28px rgba(0,0,0,.28));transition:transform .45s cubic-bezier(.16,1,.3,1),filter .45s ease!important}
+.kp-logo-slot:hover img{transform:scale(1.035)!important;filter:drop-shadow(0 18px 34px rgba(201,149,118,.16))}
+.kp-logo-header-slot{width:188px;height:88px;flex:0 0 auto}
+.kp-logo-header-slot::after{content:"";position:absolute;left:12%;right:12%;bottom:5px;height:1px;background:linear-gradient(90deg,transparent,rgba(218,171,143,.55),transparent)}
+.kp-logo-watermark{position:absolute;right:5vw;top:50%;transform:translateY(-50%);width:min(27vw,390px);height:min(27vw,390px);opacity:.11;pointer-events:none;z-index:3;mix-blend-mode:screen}
+.kp-logo-watermark::before{inset:0;background:radial-gradient(circle,rgba(218,171,143,.2),transparent 68%)}
+.kp-logo-watermark img{filter:sepia(.12) drop-shadow(0 20px 40px rgba(0,0,0,.3))}
+.kp-logo-divider{position:relative;padding:54px 20px;display:flex;justify-content:center;overflow:hidden;background:linear-gradient(180deg,#120e0c,#0b0908)}
+.kp-logo-divider::before,.kp-logo-divider::after{content:"";height:1px;flex:1;max-width:420px;align-self:center;background:linear-gradient(90deg,transparent,rgba(201,149,118,.4))}
+.kp-logo-divider::after{transform:scaleX(-1)}
+.kp-logo-divider .kp-logo-slot{width:185px;height:112px;margin:0 28px}
+.kp-logo-divider .kp-logo-slot::before{inset:3%}
+.kp-logo-signature-card{width:min(1120px,calc(100% - 36px));margin:0 auto;padding:34px 42px;border:1px solid rgba(201,149,118,.2);border-radius:28px;background:linear-gradient(135deg,rgba(255,255,255,.045),rgba(201,149,118,.025));box-shadow:0 28px 90px rgba(0,0,0,.16);display:grid;grid-template-columns:210px 1fr;gap:38px;align-items:center}
+.kp-logo-signature-card .kp-logo-slot{width:200px;height:130px}
+.kp-logo-signature-copy small{display:block;color:#c99576;font-size:9px;font-weight:700;letter-spacing:.34em;text-transform:uppercase;margin-bottom:10px}
+.kp-logo-signature-copy strong{display:block;font-family:"Cormorant Garamond",serif;font-size:clamp(1.7rem,3vw,2.7rem);font-weight:400;color:#f8f0ea;line-height:1.05}
+.kp-logo-signature-copy p{margin:10px 0 0;color:rgba(248,240,234,.55);font-size:12px;line-height:1.7}
+.kp-logo-footer-slot{width:270px;height:170px;margin-bottom:22px;justify-content:flex-start}
+.kp-logo-footer-slot::before{inset:4%;background:radial-gradient(circle,rgba(201,149,118,.13),transparent 68%)}
+.kp-logo-footer-slot img{object-position:left center}
+@media(max-width:1023px){.kp-logo-header-slot{width:150px;height:74px}.kp-logo-watermark{width:300px;height:300px;right:-70px;opacity:.075}}
+@media(max-width:767px){
+ .kp-logo-header-slot{width:125px;height:66px}
+ .kp-logo-watermark{width:230px;height:230px;right:-85px;top:35%;opacity:.06}
+ .kp-logo-divider{padding:38px 15px}.kp-logo-divider .kp-logo-slot{width:140px;height:90px;margin:0 14px}
+ .kp-logo-signature-card{grid-template-columns:1fr;text-align:center;padding:28px 22px;gap:12px}.kp-logo-signature-card .kp-logo-slot{width:165px;height:105px;margin:auto}
+ .kp-logo-footer-slot{width:210px;height:135px}
+}
+</style>
+
 </head>
 <body class="antialiased selection:bg-brand-gold selection:text-white">
 
@@ -2745,10 +2786,9 @@ Formato recomendado: MP4 vertical (9:16 ou 4:5).
     <header class="fixed top-0 left-0 w-full z-50 glass-nav transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <!-- Brand Logo -->
-            <a href="#inicio" class="flex flex-col items-start group">
-                <span class="font-serif text-xl sm:text-2xl tracking-[0.2em] text-white uppercase leading-none font-semibold">DRA. KEMILLY PRATES</span>
-                <span class="text-[9px] tracking-[0.3em] text-brand-gold uppercase font-light mt-1">NUTROLOGIA & SAÚDE DA MULHER 35+</span>
-            </a>
+            <a href="#inicio" class="kp-logo-slot kp-logo-header-slot" aria-label="Dra. Kemilly Prates — Início">
+    <img src="kp logo completa (2).png" alt="Logo Dra. Kemilly Prates">
+</a>
 
             <!-- Desktop Nav Links -->
             <nav class="hidden lg:flex items-center space-x-6 text-[11px] font-medium tracking-[0.18em] text-gray-300 uppercase">
@@ -3451,7 +3491,15 @@ Formato recomendado: MP4 vertical (9:16 ou 4:5).
 
 
 
-    <section id="instagram" class="amae-instagram-section">
+    
+<!-- Assinatura visual da marca -->
+<div class="kp-logo-divider" aria-label="Identidade Dra. Kemilly Prates">
+    <div class="kp-logo-slot">
+        <img src="kp logo completa (2).png" alt="Dra. Kemilly Prates">
+    </div>
+</div>
+
+<section id="instagram" class="amae-instagram-section">
         <div class="amae-instagram-container">
             <div class="amae-instagram-heading">
                 <div class="amae-instagram-title">
@@ -3850,7 +3898,28 @@ As fotos já são recortadas automaticamente dentro dos cards.
 </section>
 
 
+
+<!-- Bloco institucional da marca -->
+<section class="py-14 md:py-20 bg-brand-dark" aria-label="Dra. Kemilly Prates">
+    <div class="kp-logo-signature-card">
+        <div class="kp-logo-slot">
+            <img src="kp logo completa (2).png" alt="Logo Dra. Kemilly Prates">
+        </div>
+        <div class="kp-logo-signature-copy">
+            <small>Nutrologia • Saúde da Mulher 35+</small>
+            <strong>Cuidado, ciência e sofisticação em cada detalhe.</strong>
+            <p>Uma assinatura visual delicada para reforçar a identidade da Dra. Kemilly Prates ao longo da experiência.</p>
+        </div>
+    </div>
+</section>
+
 <footer class="bg-brand-darker text-gray-400 py-14 border-t border-brand-border/30 text-xs">
+<div id="kp-footer-brand-injected" style="width:min(1280px,calc(100% - 40px));margin:0 auto;padding-top:42px;">
+    <a href="#inicio" class="kp-logo-slot kp-logo-footer-slot" aria-label="Voltar ao início">
+        <img src="kp logo completa (2).png" alt="Logo Dra. Kemilly Prates">
+    </a>
+</div>
+
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
                 
